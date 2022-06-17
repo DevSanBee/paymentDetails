@@ -1,0 +1,63 @@
+.paymentForm * {
+  margin: 0%;
+}
+.paymentForm {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5%;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.atm {
+  width: 32%;
+}
+.paymentForm__header {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-content: flex-start;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.paymentForm__header > form > div {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 2%;
+}
+.paymentForm__header > form > div > label {
+  display: block;
+  margin-bottom: 2%;
+}
+.paymentForm__header > form :last-child {
+  margin-bottom: 1%;
+}
+#saveDefault {
+  border-radius: 10px;
+}
+.addCard {
+  width: 90%;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 4% 5% !important;
+}
+.outlined {
+  background-color: #e6e3e3 !important;
+  width: 80% !important;
+}
+@media screen and (max-width: 800px) {
+  .paymentForm {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .paymentForm__header,
+  .atm {
+    margin: 20px 0;
+    width: 95%;
+  }
+  .atm {
+    width: 85%;
+  }
+}

@@ -235,7 +235,7 @@ export default class Payment extends React.Component {
                 />
               </div>
               <div>
-                <MDBRadio name='flexRadioDefault' id='flexRadioDefault1' className="radio" label='Use this card for next purchase' />
+                <MDBRadio name='flexRadioDefault' style={{fontSize:"7px"}} id='flexRadioDefault1' className="radio" label='Use this card for next time purchase' />
               </div>
               <Button type="submit" className="addCard" padding="15px">
                 Add Card

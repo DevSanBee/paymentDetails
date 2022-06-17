@@ -52,6 +52,7 @@
 }
 .radio {
   margin-right: 10px;
+  font-size: 6px !important;
 }
 @media screen and (max-width: 800px) {
   .section1 {
@@ -79,5 +80,8 @@
     text-align: start;
     align-items: center;
     justify-content: center;
+  }
+  .radio {
+    font-size: 12px !important ;
   }
 }

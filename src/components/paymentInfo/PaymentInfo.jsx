@@ -11,6 +11,7 @@ const PaymentInfo = () => {
             <span>Choose your method of payment</span>
           </span>
           <span className="paymentMethod">
+            <div>
             <b>
               <label htmlFor="creditCard">
                 <img
@@ -31,6 +32,7 @@ const PaymentInfo = () => {
                 <img src="paypal.png" alt="paypal" className="paypal" />
               </label>
             </b>
+            </div>
           </span>
         </section>
       </div>
